@@ -12,7 +12,7 @@ Complete the puzzles/exercises, get tokens and learn about StarkNet smart contra
 ​
 Don't expect any kind of benefit from using this, other than learning a bunch of cool stuff about StarkNet, the first general purpose validity rollup on the Ethereum Mainnnet.
 ​
-StarkNet is still in Alpha. This means that development is ongoing, and the paint is not dry everywhere. Things will get better, and in the meanwhile, we make things work with a bit of duct tape here and there!
+&nbsp;StarkNet is still in Alpha. This means that development is ongoing, and the paint is not dry everywhere. Things will get better, and in the meanwhile, we make things work with a bit of duct tape here and there!
 ​
 
 ## How it works
@@ -23,12 +23,12 @@ This workshop is a set of smart contracts deployed on StarkNet Alpha on testnet.
 Each smart contract is an exercise/puzzle - which outlines a feature of the Cairo Smart contract language.
 Completing the exercise will credit you with points, in the form of an [ERC20 token](contracts/token/TDERC20.cairo).
 ​
-This workshop focuses on *reading* Cairo code and StarkNet smart contracts, in order to understand its syntax.
+&nbsp;This workshop focuses on *reading* Cairo code and StarkNet smart contracts, in order to understand its syntax.
 You do not need to code or install anything on your machine in order to follow and complete it.
 ​
-Getting started (doing the first two exercises) will take you some time, in order to get into the tutorial. Hang on! Once there, things will flow more easily. You're learning!
+&nbsp;Getting started (doing the first two exercises) will take you some time, in order to get into the tutorial. Hang on! Once there, things will flow more easily. You're learning!
 ​
-This workshop is the first in a serie that will cover broad smart contract concepts (writing and deploying ERC20/ERC721, bridging assets, L1 <-> L2 messaging...).
+&nbsp;This workshop is the first in a series that will cover broad smart contract concepts (writing and deploying ERC20/ERC721, bridging assets, L1 <-> L2 messaging...).
 Interested in helping writing those? [Reach out](https://twitter.com/HenriLieutaud)!
 ​
 
@@ -37,14 +37,12 @@ Interested in helping writing those? [Reach out](https://twitter.com/HenriLieuta
 Once you are done working on this tutorial, your feedback would be greatly appreciated!
 **Please fill [this form](https://forms.reform.app/starkware/untitled-form-4/kaes2e) to let us know what we can do to make it better.**
 ​
-And if you struggle to move forward, do let us know! This workshop is meant to be as accessible as possible; we want to know if it's not the case.
+&nbsp;And if you struggle to move forward, do let us know! This workshop is meant to be as accessible as possible; we want to know if it's not the case.
 ​
-Do you have a question? Join our [Discord server](https://discord.gg/B7PevJGCCw), register and join channel #tutorials-support
+&nbsp;Do you have a question? Join our [Discord server](https://discord.gg/B7PevJGCCw), register and join channel #tutorials-support
 ​
 
 ## Getting started
-
-​
 
 ### Creating an account contract
 
@@ -76,7 +74,7 @@ When looking for a contract / transaction, always make sure you are on the Goerl
 ​
 **Each exercise is a separate smart contract.** It contains code that, when executed properly, will distribute points to your address. Since there is no way currently to send a transaction easily through your account contract, you'll have to specify your address for each call.
 ​
-Points are distributed by the function `distribute_points()` while the function `validate_exercise` records that you completed the exercise (you can get points only once). Your goal is to:
+&nbsp;Points are distributed by the function `distribute_points()` while the function `validate_exercise` records that you completed the exercise (you can get points only once). Your goal is to:
 
 ![Graph](assets/diagram.png)
 ​
@@ -85,7 +83,6 @@ Points are distributed by the function `distribute_points()` while the function 
 
 ### Checking your progress
 
-​
 
 #### Counting your points
 
@@ -108,7 +105,7 @@ You sent a transaction, and it is shown as "undetected" in voyager? This can mea
 - Your transaction is pending, and will be included in a block shortly. It will then be visible in voyager.
 - Your transaction was invalid, and will NOT be included in a block (there is no such thing as a failed transaction in StarkNet).
 ​
-You can (and should) check the status of your transaction with the following URL  [https://alpha4.starknet.io/feeder_gateway/get_transaction_receipt?transactionHash=](https://alpha4.starknet.io/feeder_gateway/get_transaction_receipt?transactionHash=)  , where you can append your transaction hash.
+&nbsp;You can (and should) check the status of your transaction with the following URL  [https://alpha4.starknet.io/feeder_gateway/get_transaction_receipt?transactionHash=](https://alpha4.starknet.io/feeder_gateway/get_transaction_receipt?transactionHash=)  , where you can append your transaction hash.
 ​
 
 ### Exercises & Contract addresses
